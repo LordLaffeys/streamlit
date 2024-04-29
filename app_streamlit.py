@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model = pickle.load(open('/RF_class.pkl', 'rb'))
+loaded_model = pickle.load(open(r'\RF_class.pkl', 'rb'))
 
 def main():
     # title
